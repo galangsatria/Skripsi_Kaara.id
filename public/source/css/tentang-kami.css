@@ -1,0 +1,31 @@
+.logo {
+    width: 80%;
+}
+
+.deskripsi-kaara {
+    font-size: 20px;
+}
+
+.caption-section3 {
+    color: #bfbfbf;
+    font-size: 22px;
+}
+
+.img-component {
+    width: 70%;
+}
+
+.text-caption {
+    font-size: 18px;
+}
+
+.section-tiga {
+    background: url(/source/img/banner-tentang-kami.png);
+    background-size: cover;
+    height: 50vh;
+}
+
+.banner-tiga {
+    color: white;
+    font-size: 25px;
+}

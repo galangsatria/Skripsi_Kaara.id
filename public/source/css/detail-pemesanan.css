@@ -1,0 +1,22 @@
+.background {
+    background-image: url(/source/img/banner-riwayat-pembelian.png);
+    height: 250px;
+    overflow-x: hidden;
+}
+
+.judul-section {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.text-detail-pemesanan {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.rincian-pemesanan {
+    margin-bottom: 0;
+    margin-left: -150px;
+}

@@ -1,0 +1,12 @@
+.background {
+    background-image: url(/source/img/banner-riwayat-pembelian.png);
+    height: 250px;
+    overflow-x: hidden;
+}
+
+.judul-section {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}

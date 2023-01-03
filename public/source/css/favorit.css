@@ -1,0 +1,43 @@
+.background {
+    background-image: url(/source/img/banner-riwayat-pembelian.png);
+    height: 250px;
+    overflow-x: hidden;
+}
+
+.judul-section {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #001a41;
+    width: 116px;
+    color: white;
+    margin-left: 20px;
+}
+
+.btn-blue:hover {
+    background-color: #243751;
+    color: white;
+}
+
+.btn-danger {
+    width: 100px;
+}
+
+.btn-danger:hover {
+    background-color: #b40c1b;
+    color: white;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.card-harga {
+    font-size: 16px;
+    font-weight: bold;
+}

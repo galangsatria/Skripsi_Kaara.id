@@ -1,0 +1,18 @@
+.judul-section {
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 600;
+    color: #a977b2;
+}
+
+.col-sm-12 {
+    margin: auto;
+}
+.card {
+    border: none;
+    width: 70%;
+}
+
+.form {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,139 @@
+#Footer {
+    background-color: #ffabe1;
+}
+
+/* #Footer .about .logo {
+    margin-bottom: 15px;
+    margin-top: 56px;
+} */
+
+#Footer .about .logo img {
+    width: 200px;
+    height: auto;
+}
+
+#Footer .about .logo .navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f3f4f8;
+}
+
+#Footer .about p {
+    color: #f3f4f8;
+    text-align: justify;
+}
+
+#Footer .company {
+    margin-top: 40px;
+    margin-left: 0px;
+    padding-left: 80px;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+#Footer h3 {
+    color: #f3f4f8;
+    margin-bottom: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+#Footer h4 {
+    color: #f3f4f8;
+    margin-bottom: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration: underline;
+}
+
+#Footer h2 {
+    color: #f3f4f8;
+    margin-bottom: 27px;
+}
+
+#Footer ul {
+    padding: 0;
+}
+
+#Footer .company ul li,
+#Footer ul li {
+    list-style-type: none;
+    margin-bottom: 18px;
+}
+
+#Footer .company ul li,
+#Footer ul li a {
+    text-decoration: none;
+    color: #f3f4f8;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+#Footer .services {
+    margin-top: 38px;
+}
+
+/* #Footer .services a {
+    margin-right: 30px;
+} */
+
+#Footer .com-link:hover {
+    color: #c689c6;
+}
+
+#Footer .ser-link:hover {
+    color: #c689c6;
+    font-size: 35px;
+}
+
+#Footer .bi-instagram {
+    color: white;
+    font-size: 35px;
+}
+/* 
+#Footer .bi-instagram:hover {
+    color: #c689c6;
+} */
+
+.vl {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 230px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.hr1 {
+    border: 0.75px solid rgb(255, 255, 255);
+}
+
+.shopee {
+    height: 35px;
+    width: auto;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.copyright {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .col-lg-1 {
+        display: none;
+    }
+    #Footer .company {
+        padding-left: 0;
+    }
+}

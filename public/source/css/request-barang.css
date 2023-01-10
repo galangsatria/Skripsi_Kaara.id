@@ -16,3 +16,13 @@
 .form {
     margin-bottom: 20px;
 }
+
+@media (max-width: 426px) {
+    .container .container {
+        padding: 0 !important;
+    }
+
+    .container .card .card-body .btn-purple {
+        width: 100% !important;
+    }
+}

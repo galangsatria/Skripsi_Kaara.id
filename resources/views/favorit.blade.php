@@ -10,38 +10,38 @@
         </div>
         <div class="container my-3">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3">
                     <div class="card border-0" style="width: 18rem;">
                         <img src="/source/img/detail-sepatu-2.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text">Jordan 1 Low Shadow Toe</p>
                             <p class="card-harga">IDR 2.850.000</p>
                             <button href="#" class="btn btn-danger" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Hapus</button>
+                                data-bs-target="#exampleModal">Hapus</button>
                             <a href="/detail-barang-4"><button class="btn btn-blue">Beli</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3">
                     <div class="card border-0" style="width: 18rem;">
                         <img src="/source/img/Shein-bag2.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text">Mini Twist Lock Geometric Bag</p>
                             <p class="card-harga">IDR 350.000</p>
                             <button href="#" class="btn btn-danger" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Hapus</button>
+                                data-bs-target="#exampleModal">Hapus</button>
                             <a href="/detail-barang-2"><button class="btn btn-blue">Beli</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3">
                     <div class="card border-0" style="width: 18rem;">
                         <img src="/source/img/Shein-bag1.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text">Quilted Twist Lock Flap Bag</p>
                             <p class="card-harga">IDR 750.000</p>
                             <button href="#" class="btn btn-danger" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Hapus</button>
+                                data-bs-target="#exampleModal">Hapus</button>
                             <a href="/detail-barang-1"><button class="btn btn-blue">Beli</button></a>
                         </div>
                     </div>

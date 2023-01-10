@@ -35,3 +35,22 @@
     width: 80%;
     height: auto;
 }
+
+@media (max-width: 476px) {
+    .container {
+        padding-top: 0 !important;
+    }
+
+    .col-lg-7 h3 {
+        margin-top: 20px;
+    }
+
+    .container .row .col-lg-7 .btn-purple {
+        width: 40% !important;
+    }
+
+    .container .row .col-lg-7 .btn-white {
+        width: 40% !important;
+        margin-left: 40px !important;
+    }
+}

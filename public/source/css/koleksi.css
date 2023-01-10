@@ -67,3 +67,83 @@
 .link-barang:hover {
     color: black;
 }
+
+.card {
+    border: none;
+    width: 100%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+@media (max-width: 426px) {
+    #koleksi .col-lg-2 {
+        margin-bottom: 2rem;
+    }
+
+    #koleksi .col-lg-10 {
+        padding-left: 1rem !important;
+    }
+
+    #koleksi .col-lg-10 .row .col-10 {
+        width: 70%;
+    }
+
+    #koleksi .col-lg-10 .row .col-2 {
+        width: 30%;
+    }
+
+    #koleksi .col-lg-3 {
+        width: 50%;
+    }
+
+    .btn-search {
+        width: 100%;
+    }
+
+    .card-text {
+        font-size: medium;
+    }
+
+    .card-title {
+        font-size: medium;
+    }
+
+    .pagination {
+        margin-top: 10px;
+    }
+
+    #banner-koleksi {
+        margin-left: 0 !important;
+    }
+
+    #banner-koleksi .card {
+        height: 17vh;
+    }
+
+    .foto-banner {
+        height: 17vh;
+    }
+
+    #banner-koleksi .card-body {
+        padding-top: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 7rem !important;
+    }
+
+    #banner-koleksi h2 {
+        font-size: medium;
+    }
+
+    #banner-koleksi h6 {
+        font-size: small !important;
+        margin-top: 0.5rem !important;
+    }
+
+    .btn-dark {
+        margin-top: 5px !important;
+        width: 60%;
+        font-size: small;
+    }
+}

@@ -6,10 +6,10 @@
     <div class="section-satu" style="background-color: #FFE6F7">
         <div class="container py-3 mx-5">
             <div class="row justify-content-between">
-                <div class="col-3">
+                <div class="col-lg-3">
                     <img src="/source/img/logo.png" class="logo">
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9">
                     <h3 class="my-4">Apa itu Kaara.id?</h3>
                     <p class="deskripsi-kaara">Kaara.id merupakan toko penyedia layanan jasa titip barang fashion yang telah
                         berdiri
@@ -32,40 +32,30 @@
                 <a href="#">
                     <button class="btn comprehensive"><img src="/source/img/terpercaya.png" class="img-component"></button>
                 </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="#">
-                    <button class="btn uptodate"><img src="/source/img/original.png" class="img-component"></button>
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="#">
-                    <button class="btn trusted"><img src="/source/img/variatif.png" class="img-component"></button>
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="#">
-                    <button class="btn hq"><img src="/source/img/fitur-request.png" class="img-component"></button>
-                </a>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-sm-3">
                 <h4 style="padding-top: 10px; padding-bottom: 18px;">Terpercaya</h4>
                 <p class="text-caption" style="padding-bottom: 50px;">Kaara.id konsisten memberikan pelayanan sejak 2019
                 </p>
             </div>
             <div class="col-sm-3">
+                <a href="#">
+                    <button class="btn uptodate"><img src="/source/img/original.png" class="img-component"></button>
+                </a>
                 <h4 style="padding-top: 10px; padding-bottom: 18px;">Up to date</h4>
                 <p class="text-caption" style="padding-bottom: 50px;">Kami menjamin semua barang yang kami tawarkan 100%
                     original</p>
             </div>
             <div class="col-sm-3">
+                <a href="#">
+                    <button class="btn trusted"><img src="/source/img/variatif.png" class="img-component"></button>
+                </a>
                 <h4 style="padding-top: 10px; padding-bottom: 18px;">Trusted</h4>
                 <p class="text-caption" style="padding-bottom: 50px;">Kami menyediakan banyak varian barang fashion berupa
                     tas, pakaian, sepatu, dan lainnya</p>
             </div>
             <div class="col-sm-3">
+                <a href="#">
+                    <button class="btn hq"><img src="/source/img/fitur-request.png" class="img-component"></button>
+                </a>
                 <h4 style="padding-top: 10px; padding-bottom: 18px;">High Quality</h4>
                 <p class="text-caption" style="padding-bottom: 50px;">Kaara.id menyediakan fitur request apabila konsumen
                     menginginkan barang lain</p>

@@ -1,8 +1,8 @@
 @extends('layouts.koleksi')
 @section('koleksi')
     <div class="container-fluid my-4">
-        <div class="row justidy-content-evenly">
-            <div class="col-2">
+        <div id="koleksi" class="row justidy-content-evenly">
+            <div class="col-lg-2">
                 <div class="card" style="background-color: #f8f8f9">
                     <div class="card-body">
                         <div class="kategori-barang">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-10 ps-4">
+            <div class="col-lg-10 ps-4">
                 <div class="row">
                     <div class="col-10">
                         <input type="text" class="cari-barang p-2" placeholder="Cari Barang">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a href="/detail-barang-1" class="link-barang">
                             <div class="card">
                                 <img src="/source/img/Shein-bag1.png" class="img-koleksi" alt="">
@@ -67,7 +67,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a href="/detail-barang-2" class="link-barang">
                             <div class="card">
                                 <img src="/source/img/Shein-bag2.png" class="img-koleksi" alt="">
@@ -76,7 +76,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a href="/detail-barang-3" class="link-barang">
                             <div class="card">
                                 <img src="/source/img/detail-sepatu-1.png" class="img-koleksi" alt="">
@@ -85,7 +85,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a href="/detail-barang-4" class="link-barang">
                             <div class="card">
                                 <img src="/source/img/detail-sepatu-2.png" class="img-koleksi" alt="">
@@ -114,18 +114,18 @@
                 </ul>
             </nav>
         </div>
-        <div class="col-10 ms-auto">
+        <div id="banner-koleksi" class="col-lg-10 ms-auto">
             <div class="card" style="border-radius: 13px; width:100%">
-                <img src="/source/img/banner-koleksi.png" alt="">
+                <img src="/source/img/banner-koleksi.png" class="foto-banner" alt="">
                 <div class="card-body ps-5 pt-5" style="position: absolute;">
                     <h2 class="fw-bold" style="color: white">Tidak Menemukan Barang Yang Disukai?</h2>
                     <h6 class="mt-3 fs-6" style="color: white">
                         Kamu bisa request barang jasa titip loh, klik tombol di bawah ya!
                     </h6>
-                    @if(Auth::check())
-                    <a href="/request-barang"><button class="btn btn-dark">Request Barang</button></a>
+                    @if (Auth::check())
+                        <a href="/request-barang"><button class="btn btn-dark">Request Barang</button></a>
                     @else
-                    <a href="{{route('loginform')}}"><button class="btn btn-dark">Request Barang</button></a>
+                        <a href="{{ route('loginform') }}"><button class="btn btn-dark">Request Barang</button></a>
                     @endif
                 </div>
             </div>

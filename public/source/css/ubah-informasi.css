@@ -19,3 +19,14 @@
 .form {
     margin-bottom: 20px;
 }
+
+@media (max-width: 426px) {
+    .ubah-informasi .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .ubah-informasi .btn-purple {
+        width: 50% !important;
+    }
+}

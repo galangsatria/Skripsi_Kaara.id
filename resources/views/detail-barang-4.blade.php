@@ -2,7 +2,7 @@
 @section('detail-barang')
     <div class="container py-5">
         <div class="row ">
-            <div class="col-5 mt-5">
+            <div class="col-lg-5 mt-5">
                 <div class="card" style="height: 100%">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -39,11 +39,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-7 text-center">
+            <div class="col-lg-7 text-center">
                 <h3>NIKE</h3>
                 <h3>Air Jordan 1 Low Shadow Toe</h3>
                 <h3>IDR 2.850.000</h3>
-                <p class="deskripsi-barang">Lorem ipsum dolor sit amet consectetur. Quis urna mauris scelerisque bibendum arcu.
+                <p class="deskripsi-barang">Lorem ipsum dolor sit amet consectetur. Quis urna mauris scelerisque bibendum
+                    arcu.
                     Diam eget cursus orci tristique interdum ullamcorper. Leo elit feugiat donec pulvinar id nunc.</p>
                 <h6 class="text-start size">Size</h6>
                 <div class="flex d-flex ">
@@ -52,14 +53,17 @@
                     <span class="ukuran px-1">11 US</span>
                 </div>
                 <div class="mt-5">
-                    @if(Auth::check())
-                    <a href="/keranjang-saya"><button class="btn btn-purple text-white" style="width: 45%">Tambahkan
-                        ke Keranjang</button></a>
-                    <a href="/favorit"><button class="btn btn-white" style="width: 45%; margin-left: 70px">Tambahkan ke Favorit</button></a>
+                    @if (Auth::check())
+                        <a href="/keranjang-saya"><button class="btn btn-purple text-white" style="width: 45%">Tambahkan
+                                ke Keranjang</button></a>
+                        <a href="/favorit"><button class="btn btn-white" style="width: 45%; margin-left: 70px">Tambahkan ke
+                                Favorit</button></a>
                     @else
-                    <a href="{{route('loginform')}}"><button class="btn btn-purple text-white" style="width: 45%">Tambahkan
-                        ke Keranjang</button></a>
-                    <a href="{{route('loginform')}}""><button class="btn btn-white" style="width: 45%; margin-left: 70px">Tambahkan ke Favorit</button></a>
+                        <a href="{{ route('loginform') }}"><button class="btn btn-purple text-white"
+                                style="width: 45%">Tambahkan
+                                ke Keranjang</button></a>
+                        <a href="{{ route('loginform') }}""><button class="btn btn-white"
+                                style="width: 45%; margin-left: 70px">Tambahkan ke Favorit</button></a>
                     @endif
                 </div>
             </div>

@@ -29,3 +29,38 @@
     color: white;
     font-size: 25px;
 }
+
+@media (max-width: 426px) {
+    .section-satu .container {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .col-lg-3 {
+        text-align: center;
+    }
+
+    .deskripsi-kaara {
+        text-align: justify;
+    }
+
+    .section-tiga {
+        height: 30vh;
+    }
+
+    .section-tiga .row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .section-tiga .banner-tiga {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        font-size: larger;
+        text-align: justify;
+    }
+}

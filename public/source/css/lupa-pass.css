@@ -94,3 +94,13 @@ p {
 .bi {
     color: black;
 }
+
+@media (max-width: 426px) {
+    .img-reset-1 {
+        display: none;
+    }
+
+    .container {
+        overflow-x: hidden;
+    }
+}

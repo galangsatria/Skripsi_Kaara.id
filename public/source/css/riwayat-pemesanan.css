@@ -10,3 +10,9 @@
     font-weight: 600;
     color: white;
 }
+
+@media (max-width: 426px) {
+    .riwayat-pembelian .btn-purple {
+        width: 100%;
+    }
+}

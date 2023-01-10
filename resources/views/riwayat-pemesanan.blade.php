@@ -23,18 +23,17 @@
 
                 <tbody>
                     <tr>
-
                         <td>1</td>
                         <td>Nike Air Jordan 1 Low Bred Toe</td>
                         <td>IDR 2.500.000</td>
                         <td>12/01/2021</td>
                         <td>
                             <div class="row justify-content-center" style="margin-left: -40px">
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <button class="btn btn-purple" style="color: white; width: 150px; font-weight:bold;"
                                         data-bs-toggle="modal" data-bs-target="#staticBackdrop">Bayar</button>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <button class="btn btn-danger" style="margin-right: -60px" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Hapus</button>
                                 </div>

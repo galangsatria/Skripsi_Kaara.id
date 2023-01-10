@@ -83,14 +83,14 @@
         <div class="row justify-content-start">
             <div class="col-4">
                 <div class="card shadow-lg mt-4 mb-5">
-                    <img src="/source/img/banner-bantuan.png" alt="">
+                    <img src="/source/img/banner-bantuan.png" class="banner-bantuan" alt="">
                     <div class="card-img-overlay">
-                        <h2 class="card-title mt-3">Tidak Menemukan Solusi?</h2>
+                        <h2 class="card-title">Tidak Menemukan Solusi?</h2>
                         <p class="card-text">Apabila ada pertanyaan yang tidak terjawab, hubungi kami!</p>
-                        @if(Auth::check())
-                        <a href="/contact"><button class="btn btn-1 mt-5">Hubungi Kami</button></a>
+                        @if (Auth::check())
+                            <a href="/contact"><button class="btn btn-1">Hubungi Kami</button></a>
                         @else
-                        <a href="{{route('loginform')}}"><button class="btn btn-1 mt-5">Hubungi Kami</button></a>
+                            <a href="{{ route('loginform') }}"><button class="btn btn-1">Hubungi Kami</button></a>
                         @endif
                     </div>
                 </div>

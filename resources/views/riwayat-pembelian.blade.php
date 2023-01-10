@@ -21,10 +21,9 @@
                         <th>Status</th>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     <tr>
-                        
                         <td>1</td>
                         <td>Nike Air Jordan 1 Low Bred Toe</td>
                         <td>IDR 2.500.000</td>
@@ -33,7 +32,7 @@
                         <td>Selesai</td>
                     </tr>
                 </tbody>
-                
+
             </table>
         </div>
     </div>

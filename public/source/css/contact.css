@@ -226,17 +226,52 @@ p {
     color: #a977b2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 426px) {
     .col-sm-5 {
-        padding-right: 0;
+        height: 110vh;
+        padding-top: 50px;
     }
 
-    .h4-kiri {
-        padding-right: 5px;
+    .col-sm-1 {
+        width: 10%;
     }
 
-    input,
-    input::placeholder {
-        font-size: 13px;
+    .col-sm-11 {
+        width: 90%;
+    }
+
+    .foto {
+        padding-top: 40px;
+    }
+
+    .col-sm-7 {
+        padding-top: 50px;
+    }
+
+    #Contact .col-sm-7 .row {
+        padding-top: 10px !important;
+    }
+
+    #Contact .row .col-sm-6 {
+        padding-left: 10px !important;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .button .row .col-sm-2 {
+        width: 50%;
+    }
+
+    .btn-send {
+        width: 100%;
+    }
+
+    .btn-back {
+        margin-left: 0;
+        width: 100%;
     }
 }
